@@ -62,7 +62,7 @@ def main():
   
   init = argsParse(users)
   
-  loop(init)
+  #loop(init)
 
 def loop(init):
   time = 0
@@ -126,6 +126,7 @@ def roll(min, max, win, gold):
 
   for v in winUsers:
     print('%s 分得 %d 金' % ( v['name'], averageGold)
+
 
 if __name__ == "__main__":
   main()
